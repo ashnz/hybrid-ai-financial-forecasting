@@ -1,0 +1,24 @@
+# Data processing
+numpy
+pandas
+pyarrow
+duckdb
+
+# Market data
+yfinance
+
+# Visualisation
+matplotlib
+plotly
+
+# Machine learning
+scikit-learn
+xgboost
+
+# Configuration and testing
+PyYAML
+pytest
+tzdata
+
+# Dashboard (later stages)
+streamlit

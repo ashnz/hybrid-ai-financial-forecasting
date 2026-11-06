@@ -1,0 +1,40 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local data files
+data/raw/*
+data/processed/*
+
+# Keep folders available
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model artefacts
+models/*.pkl
+models/*.joblib
+models/*.pt
+models/*.pth
+models/*.onnx
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local settings
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db

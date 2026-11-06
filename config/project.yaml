@@ -1,0 +1,66 @@
+project:
+  name: "Hybrid AI Financial Forecasting System"
+  version: "0.1.0"
+  random_seed: 42
+
+market:
+  country: "US"
+  exchange_timezone: "America/New_York"
+
+  stocks:
+    - AAPL
+    - MSFT
+    - NVDA
+    - GOOGL
+    - AMZN
+
+  benchmark: "SPY"
+  frequency: "1d"
+
+forecast:
+  horizon_days: 5
+  target: "positive_forward_return"
+  cutoff_time: "20:00"
+  timezone: "America/New_York"
+
+data:
+  start_date: "2015-01-01"
+  end_date: "2026-11-05"
+
+splits:
+  training:
+    start: "2015-01-01"
+    end: "2021-12-31"
+
+  validation:
+    start: "2022-01-01"
+    end: "2022-12-31"
+
+  calibration:
+    start: "2023-01-01"
+    end: "2023-12-31"
+
+  testing:
+    start: "2024-01-01"
+    end: "2025-12-31"
+
+  forward_evaluation:
+    start: "2026-01-01"
+    end: "2026-11-05"
+
+  gap_trading_days: 5
+
+evaluation:
+  primary_metric: "brier_score"
+
+  secondary_metrics:
+    - log_loss
+    - balanced_accuracy
+    - roc_auc
+    - calibration_error
+
+  enable_walk_forward: true
+
+execution:
+  mode: "research_only"
+  real_money_trading: false
