@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Hybrid AI Financial Forecasting System
 
@@ -59,3 +60,5 @@ Stage 1: Environment and configuration setup.
 This is an experimental machine-learning research
 project. Its forecasts are not guaranteed and
 should not be interpreted as investment advice.
+=======
+
