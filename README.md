@@ -33,8 +33,8 @@ Matplotlib, Plotly, and Streamlit.
 
 ## Development Progress
 
-- [ ] Stage 1: Project Setup and Research Protocol
-- [ ] Stage 2: Market Data Collection
+- [x] Stage 1: Project Setup and Research Protocol
+- [x] Stage 2: Market Data Collection
 - [ ] Stage 3: Data Cleaning and Validation
 - [ ] Stage 4: Exploratory Data Analysis
 - [ ] Stage 5: Feature Engineering
@@ -51,9 +51,19 @@ Matplotlib, Plotly, and Streamlit.
 
 See docs/EXPERIMENT_PROTOCOL.md.
 
-## Current Status
+## Historical Market Data Analysis
 
-Stage 1: Environment and configuration setup.
+Historical daily prices were collected for five US
+stocks and the SPY benchmark.
+
+All 17,874 observations passed the initial
+internal data-quality checks.
+
+The datasets were preserved in Parquet format,
+with timestamped snapshots and integrity hashes.
+
+See [Market Data Analysis](reports/market_data_analysis.md)
+for findings, limitations, and visualisations.
 
 ## Disclaimer
 
