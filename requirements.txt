@@ -22,3 +22,5 @@ tzdata
 
 # Dashboard (later stages)
 streamlit
+
+pandas_market_calendars

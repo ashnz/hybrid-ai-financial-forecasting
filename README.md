@@ -35,7 +35,7 @@ Matplotlib, Plotly, and Streamlit.
 
 - [x] Stage 1: Project Setup and Research Protocol
 - [x] Stage 2: Market Data Collection
-- [ ] Stage 3: Data Cleaning and Validation
+- [x] Stage 3: Data Cleaning and Validation
 - [ ] Stage 4: Exploratory Data Analysis
 - [ ] Stage 5: Feature Engineering
 - [ ] Stage 6: Chronological Splitting
@@ -64,6 +64,24 @@ with timestamped snapshots and integrity hashes.
 
 See [Market Data Analysis](reports/market_data_analysis.md)
 for findings, limitations, and visualisations.
+
+## Data Cleaning and Validation
+
+The historical dataset contains 17,874 observations
+across five US stocks and the SPY benchmark.
+
+Results:
+- NYSE calendar coverage: 100%
+- Missing trading sessions: 0
+- Observations flagged for review: 35
+- Rejected observations: 0
+- Automated project tests passed: 15/15
+
+Raw observations are preserved, with processed
+datasets stored separately.
+
+See [Data Cleaning Analysis](reports/data_cleaning_analysis.md).
+
 
 ## Disclaimer
 

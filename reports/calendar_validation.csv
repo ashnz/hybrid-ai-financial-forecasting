@@ -1,0 +1,7 @@
+Ticker,Expected_Sessions,Actual_Sessions,Missing_Sessions,Unexpected_Sessions,Coverage_Percent
+AAPL,2979,2979,0,0,100.0
+MSFT,2979,2979,0,0,100.0
+NVDA,2979,2979,0,0,100.0
+GOOGL,2979,2979,0,0,100.0
+AMZN,2979,2979,0,0,100.0
+SPY,2979,2979,0,0,100.0
